@@ -10,3 +10,5 @@
     Minha dedução é que só consigo trocar de branch após commitar alguma mudança, como alterei o arquivo novamente para falar que o Teste acima funcionou, preciso fazer outro commit.
 
 - Certo, fiz um commit e enviei para o repositório remoto, mas esqueci de salvar o ultimo teste, então farei mais um kkk.
+
+- Não sei porque, mas quando dei Merge na branch master com a Comandos, o arquivo do teste.txt (esse arquivo) foi junto na master, sinto muito por isso, não sei desfazer.
