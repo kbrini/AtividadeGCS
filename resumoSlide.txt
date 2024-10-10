@@ -1,0 +1,117 @@
+Aula 1:
+    1-6° - Primeiros 6 slides apresenta os orientadores do curso, e formas de contato com eles. Além disso, apresenta também a ementa do curso e o método de avaliação/notas.
+
+    7° - No slide 7 temos uma breve introdução do que é o SCM (ou GCS) e o questionamento do porquê isso é importante.
+    
+    8° - Explicação do que é um software, e quais são os artefatos do usuário e do desenvolvedor.
+
+    9° - Inicia uma breve exposição das utilidades e pra que serve o SCM.
+
+    10° - Conta um pouco da história do SCM e seus diferentes usos em diferentes épocas.
+
+    11° - Apresentação de conceitos importantes, como Item de Configuração e Baseline, e no final explica que o uso do SCM serve para garantir que o software
+          esteja sendo bem desenvolvido.
+
+    12° - Mostra quais grupos/pessoas são impactados pelo SCM.
+
+    13° - Introduz o conceito de Controle de Mudança e para o que ele serve.
+
+    14° - Continuação do tópico Controle de Mudança, introduzindo e explicando novos conceitos e subconceitos, como Issue Tracking, Issues e atributos de uma Issue.
+
+    15° - Continuação do tópico Controle de Mudança, dessa vez apresentando o conceito de Milestones e do Comite de Controle de Mudança.
+
+    16° - Uma imagem mostrando como plataformas ja utilizam conceitos de SCM, nesse caso mostrando o título de uma Issue, sua descrição,
+          responsáveis, rótulos, projetos, e Milestones.
+
+    17° - Agora uma imagem exemplificando como seria uma plataforma sem o uso do SCM.
+
+    18° - Introduz o conceito de Controle de Versão a partir de um questionamento de como seria fazer um grande programa sem utilizar o manejamento de versões e mostrando algumas
+          desvantagens.
+    
+    19° - Continuação do tópico Controle de Versão, apresenta as plataformas/tecnologia/ferramentas mais utilizadas para o controle de versões, Git e GitHub.
+
+    20° - Continuação do tópico Controle de Versão, mostra e explica conceitos importantes do Controle de Versão, sendo eles o Diretório de Trabalho,
+          o Repositório e o Histórico de Versão.
+
+    21° - Finaliza com um "meme" que induz a uma analogia com o Frankenstein, ja que ao não se utilizar o Controle de Versão, você acaba juntando várias coisas,
+          fazendo alterações e implementações sem o devido controle e, contanto que funcione, está tudo bem, dessa forma criando um código monstruoso.
+
+    Considerações minhas da primeira aula:
+        É uma aula importante, não só por mostrar a ementa e o método avaliativo, como, principalmente, por mostrar a base e muitos conceitos do SCM e utilidades.
+
+
+Aula 2:
+    1-3° - Começa a segunda aula com uma pequena revisão da primeira, relembrando os conceitos de Versões e das tecnologias mais utilizadas, bem como
+           introduzindo novos conceitos de tecnologias distribuídas e centralizadas.
+    
+    4° - Explica com mais detalhes o que é o Git e como ele surgiu.
+
+    5° - Mostra como instalar o Git, ja com o link anexado ao slide e como verificar se realmente está instalado bem como verificar a versão.
+
+    6° - Mostra alguns serviços de hospedagem que utilizam o Git como base.
+
+    7° - Explica e expõe com mais detalhes o que é o GitHub.
+
+    8° - Mostra como logar sua conta GitHub com o VsCode.
+
+    9° - Lembra alguns conceitos importantes ja citados na primeira aula, sendo eles o Diretório e o Repositório, dessa vez utilizando uma imagem para
+         ilustrar como funciona algumas funções/ações e ja dando um spoiler de conceitos como staging e Repositório remoto.
+
+    10° - Começa a mostrar os comandos necessários para a configuração do Git e também pra ser possível fazer algumas ações mais importantes que serão
+          expostas ainda.
+
+    11° - Mostra os comandos usados para iniciar o Git e criar um Repositório via local, e para ver o status do terminal/área de trabalho (não sei boas palavras para definir).
+
+    12° - Ensina como criar um Repositório remoto pelo GitHub.
+
+    13° - Define o que é staging, e mostra os comandos para adicionar arquivos ao staging.
+
+    14° - Mostra e explica alguns comandos para remover arquivos do staging.
+
+    15° - Ensina o comando para dar um commit e explica o que ele é.
+
+    16° - memes tipos de carinha são
+
+    17° - Ensina como conectar um Repositório remoto com um local e como criar a branch master/enviar a linha de tempo para o Repositório remoto.
+
+    18° - Mostra os comandos utilizados para clonar um Repositório remoto.
+
+    19° - Mostra os comandos utilizados para atualizar ambos os Repositórios, ou então atualizar apenas uma branch do Repositório local.
+
+    20° - Explica o uso dos comandos de clonar citados anteriormente e introduz o cuidado que precisamos ter com as Licenças.
+
+    21° - Mostra as ocasiões de uso e os comandos para desfazer mudanças, apesar de serem apenas alguns exemplos e recomendar se aprofundar nos comandos.
+
+    22° - Ensina como criar branches, quais ocasiões usar os comandos e como enviar uma branch local para o Repositório remoto.
+
+    23° - Ensina como se mover entre as branches e quais ocasiões usar os comandos ensinados.
+
+    24° - Conceitua e ensina como dar Merge (juntar) nas branches.
+
+    25° - Mostra o caso do que acontece se você juntar 2 branches numa mesma linha de tempo/branch descendente, e como criar uma nova branch/commit nesse caso.
+
+    26° - Introduz, conceitua e mostra o Rebase e como utilizar.
+
+    27° - Introduz o caso de conflitos em um Merge.
+
+    28° - Ensina como cancelar um Merge.
+
+    29° - Ensina como escolher uma das versões/branches a ser aceita.
+
+    30° - Ou então misture os 2.
+
+    31° - Introduz e explica o conceito de Merge/pull request, e suas vantagens/usos.
+
+    32° - Ensina algumas boas práticas para commit.
+
+    33° - Imagem que ilustra um exemplo do porque boas práticas para commit importam.
+
+    34° - Mais algumas boas práticas e algumas funções/ações possíveis.
+
+    35° - Explica 2 tipos de Workflow, centralizado e feature branches.
+
+    36° - Mais 1 tipo de Workflow, bifurcação/fork.
+
+    37° - Introduz a possibilidade de usar um Repositório local para vários remotos e ensina alguns comandos para fazer isso.
+
+    38-40° - Da as informações necessárias para fazer esta atividade e o Barema.
