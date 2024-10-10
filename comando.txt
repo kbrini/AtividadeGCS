@@ -1,0 +1,123 @@
+- git push --set-upstream origin "nome da branch"
+    Envia para o repositório remoto uma branch criada e, pelos meus testes, ja com as mudanças feitas nos arquivos.
+
+- git init
+    Inicia o git
+
+- git status
+    Mostra as informações atuais do trabalho (? não sei uma palavra boa para definir), tais como branch atual, arquivos ignorados, arquivos no staging, se há algum commit a ser feito etc.
+
+- git version
+    Mostra versão do git
+
+- git config --global user.name "seuNome" / git config -- global user.email "seuEmail"
+    Não entendi ao certo, acho que seja pra "logar"/conectar sua conta ao GitHub com o local onde você está programando. Eu sei que se você não usar esses comandos, não sera possível dar
+    commits ou push.
+
+- git add "nomeDoArquivo"
+    Adiciona ao staging o arquivo "nomeDoArquivo".
+
+- git add .
+    Adiciona ao staging todos os arquivos alterados.
+
+- git add *.txt (não utilizei)
+    Adiciona ao staging todos os arquivos .txt.
+
+- git rm --cached "nomeDoArquivo" (não utilizei)
+    Remove o arquivo "nomeDoArquivo" do staging.
+
+- git rm --cached *.txt (não utilizei)
+    Remove do staging todos os arquivos .txt.
+
+- git rm -r --cached .
+    Remove todos os arquivos do staging.
+
+- git commit -m "Commit"
+    Cria um commit, que seria uma versão nova do arquivo.
+
+- git remote add origin <url>
+    "Linka" o seu repositório local com o repositório remoto do link. Conecta os 2 resumindo.
+
+- git push -u origin master
+    Cria a branch master eu acho. Eu utilizei para criar a branch master, no slide fala que serve para enviar a linha do tempo para o repositório remoto, mas pra isso eu to usando
+    git push.
+
+- git clone <url HTTPS> (não usei)
+    Conecta 2 repositórios por um link https eu acho.
+        Vi agora, mas vou manter minhas primeiras "impressões" git clone serve para você clonar literalmente um repositório remoto para o seu repositório local através de um link.
+
+- git clone <SSH Ref> (não usei)
+    Conecta 2 repositórios por uma chave SSH eu acho.
+        Assim como o comando acima, serve para clonar, porém a partir de uma chave SSH
+
+- gh repo clone <nome repositório> (não usei)
+    Não faço ideia, acho que conecta 2 repositórios pelo meio do nome no GitHub CLI.
+        Deve clonar um repositório pelo seu nome no GitHub CLI, não sei direito ainda esse kkk
+
+- git pull
+    Atualiza seu repositório local com o que tem no repositório remoto.
+
+- git push
+    Atualiza o repositório remoto com o que tem no repositório local.
+
+- git pull origin "nomeDaBranch"
+    Atualiza apenas uma branch local com o que tem na branch remota.
+
+- git checkout "nomeDoArquivo" (não usei)
+    Desfaz alterações no arquivo.
+
+- git reset HEAD "nomeDoArquivo" (não usei)
+    Desfaz alterações no arquivo ja adicionado no staging eu acho
+
+- git reset HEAD~ (não usei)
+    Desfaz alterações ja commitadas, mas sem dar push.
+
+- git revert HEAD (não usei)
+    Cria um novo commit desfazendo as alterações. Imagino que ele cria uma nova "versão" a partir de uma mais antiga, assim desfazendo as alterações.
+
+- git branch "nomeDaBranch" (não funcinou)
+    Cria uma branch.
+
+- git checkout -b "nomeDaBranch"
+    Cria e entra numa branch.
+
+- git checkout branch
+    Altera de branch. Aparentemente você perde alterações feitas em outras branchs (faz sentido, já que vai pro ultimo commit da branch).
+
+- git checkout -b branch (não usei)
+    Altera de branch, criando ela se não existir.
+
+- git checkout "idDoCommit" (não usei)
+    Volta pro commit anterior.
+
+- git checkout tags/"nomeDaTag" (não usei)
+    Altera para o commit com a Tag fornecida
+
+- git merge "nomeDaBranch"
+    Junta 2 branches, a atual com a citada, criando um novo commit/"versão" com as mudanças feitas em ambas.
+
+- git merge --no-ff branch
+    Junta 2 versões de uma mesma branch, criando uma versão nova.
+
+- git rebase branch
+    Não ficou claro no slide, então eu suponho que você pega uma branch 1 e junta com uma branch 2, colocando as versões da branch 1 na frente da branch 2, como se fosse novos commits
+    e misturando elas. Acho que é isso.
+
+- git merge --abort
+    Cancela um merge
+
+- git remote add "apelido" "URL" (não usei)
+    Conecta um repositório remoto a um repositório local. Acho que o comando possibilita ter mais de um repositório remoto conectado.
+
+- git remote -v
+    Lista todos os repositórios conectados eu acho
+
+- git remote rm "apelido"
+    Remove um dos repositórios remotos conectados eu acho
+
+- git remote rename "antigo" "novo
+    Renomeia o apelido do repositório remoto conectado
+
+- git remote set-url "apelido" "URL"
+    Muda o URL do repositório remoto conectado.
+    
