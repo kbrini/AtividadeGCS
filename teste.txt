@@ -1,0 +1,7 @@
+- Testando funcionamento geral do GitHub no VsCode, até então git init, git status e git add funcionaram. (funcionaram)
+
+- Testando criar nova branch Teste. (funcionou)
+
+- Teste para ver se as mudanças feitas neste arquivo serão salvas no GitHub, ja que, ao criar, o primeiro teste não foi salvo, e não consegui fazer um commit pro segundo teste.
+    Tentei dar um commit mas apareceu "On branch Teste /n nothing to commit, working tree clean". Imagino que seja porque esqueci de salvar o documento, se funcionar agora,
+    adicionarei um "(funcionou)" no final desse Teste.
