@@ -1,0 +1,54 @@
+- SCM
+    Sigla para "Software Configuration Management" que na tradução fica "Gerenciamento de COnfiguração de Software". É o conceito que estudamos
+    para ser possível manter a saúde do desenvolvimento de um software e facilitar o entendimento e "entrosamento" entre vários desenvolvedores.
+
+- Software
+    Conjunto de instruções para o computador executar.
+
+- Artefatos
+    Componentes de um Software.
+
+-Item de configuração
+    Artefato ou Conjunto de Artefatos que serão gerenciados.
+
+- Baseline
+    Versão revisada e aprovada de um item de configuração. Uma versão estável o suficiente de uma aplicação para ser disponibilizada ao público
+    ou itens para uso interno dos desenvolvedores.
+
+- Auditoria de Configuração
+    Processo para garantir que o software esteja totalmente documentado e que sua versão final esteja adequada com os requisitos.
+
+- Controle de Mudanças
+    Subtópico do SCM responsável por gerenciar mudanças feitas no software.
+
+- Issue
+    "Problema"/Implementação/Mudança a ser feita num software.
+
+- Issue tracking
+    Sistema para gerenciar as Issues.
+
+- Milestone
+    Agrupamento de Issues que resolvem/terminam um problema/implementação em um software. Analogamente, seria os checkpoints de um jogo, uma parte do projeto
+    que foi completada.
+
+- Comitê de controle de mudanças
+    Grupo responsável por gerenciar eventuais mudanças em um projeto.
+
+- Controle de Versão
+    Subtópico do SCM responsável por gerenciar as versões de um software.
+
+- Diretório de Trabalho
+    Local no computador que fica os arquivos do projeto.
+
+- Repositório
+    Local que guarda as versões do projeto, histórico de mudanças e dados associados a estas.
+
+- Histórico de versão
+    Registro de modificações de um projeto.
+
+- Workflow
+    Um termo para metodologias/tipos utilizadas no desenvolvimento de um projeto. Temos conhecimento de 3, sendo elas:
+        Fluxo centralizado: Workflow com repositório central, onde todos os desenvolvedores clonam este, e trabalham na branch principal, dando pushs e podendo gerar conflitos.
+        Fluxo com feature branches: Workflow com repositório central, onde cada Issue/Milestone é feita em branches isoladas e no final mergeando tudo.
+        Fluxo com bifurcação/fork: Workflow com repositório central, onde temos 2 repositórios, o principal e um que funciona como sub/semi principal
+                                   utilizado como um repositório para testar e verificar se o projeto está estável.
